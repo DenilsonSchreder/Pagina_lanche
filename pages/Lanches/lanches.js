@@ -1,0 +1,7 @@
+let lanchesJson = [
+    {id:1, name:'Pão com ovos', img:'https://www.receiteria.com.br/wp-content/uploads/lanche-de-frigideira-com-ovo-730x477.jpg', price:24.90, sizes:['100g', '530g', '860g'], description:'Ovos, sal, manteiga, presunto, queijo e pão.'},
+    {id:2, name:'Enroladinho de Queijo', img:'https://www.receiteria.com.br/wp-content/uploads/enroladinho-de-queijo-e-presunto-na-airfryer-730x477.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Massa de lasanha, queijo muçarela, presunto, molho de tomate, maionese e orégano.'},
+    {id:3, name:'Cone de Rap10', img:'https://www.receiteria.com.br/wp-content/uploads/cone-de-rap10-na-airfryer-1-e1658161504411-730x480.jpg', price:17.45, sizes:['320g', '530g', '860g'], description:'Cebola, alho, páprica, cenoura, frango desfiado, azeitonas, cebolinha, requeijão cremoso, rap10 e parmesão.'},
+    {id:4, name:'Cachorro quento no Rap10', img:'https://www.receiteria.com.br/wp-content/uploads/cachorro-quente-no-rap10-730x480.jpg', price:19.77, sizes:['320g', '530g', '860g'], description:'Rap10, purê de batatas, salsichas, milho, azeitonas, maionese.'},
+    {id:5, name:'Pão de queijo de mandioca', img:'https://www.receiteria.com.br/wp-content/uploads/pao-de-queijo-de-mandioca-0-730x480.jpg', price:21.43, sizes:['320g', '530g', '860g'], description:'Mandioca, polvilho doce, polvilho azedo, azeite, água, sal, cúrcuma, orégano e salsinha.'}
+];

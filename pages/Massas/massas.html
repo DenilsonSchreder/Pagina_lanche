@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="models">
+        <div class="massas-item">
+            <a href="">
+                <div class="massas-item--img"><img src="" /></div>
+                <div class="massas-item--add">+</div>
+            </a>
+            <div class="massas-item--price">R$ --</div>
+            <div class="massas-item--name">--</div>
+            <div class="massas-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <div class="voltar"><a href="../../index2.html">Voltar</a></div>
+        <h1>Massas</h1>
+        <div class="massas-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas Massas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem pagamento">
+                    <div class="cart--totalitem pagamento-left">Forma de Pagamento</div>
+                    <div class="cart--totalitem pagamento-right">
+                        <input id="1" class="cart--totalitem pagamento-right-button" onclick="select()" type="button" value="Cartão">
+                        <input id="2" class="cart--totalitem pagamento-right-button" onclick="troco()" type="button" name="dinheiro" value="Dinheiro">
+                    </div>
+                </div>
+                <div id="troco" class="cart--totalitem troco">
+                    <div class="cart--totalitem troco-left">Precisará de troco para quanto?</div>
+                    <div class="cart--totalitem troco-right">
+                        <input type="number" name="troco" value="50">
+                    </div>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="massasWindowArea">
+        <div class="massasWindowBody">
+            <div class="massasInfo--cancelMobileButton">Voltar</div>
+            <div class="massasBig">
+                <img src="" />
+            </div>
+            <div class="massasInfo">
+                <h1>--</h1>
+                <div class="massasInfo--desc">--</div>
+                <div class="massasInfo--sizearea">
+                    <div class="massasInfo--sector">Tamanho</div>
+                    <div class="massasInfo--sizes">
+                        <div data-key="0" class="massasInfo--size">PEQUENA <span>--</span></div>
+                        <div data-key="1" class="massasInfo--size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="massasInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="massasInfo--pricearea">
+                    <div class="massasInfo--sector">Preço</div>
+                    <div class="massasInfo--price">
+                        <div class="massasInfo--actualPrice">R$ --</div>
+                        <div class="massasInfo--qtarea">
+                            <button class="massasInfo--qtmenos">-</button>
+                            <div class="massasInfo--qt">1</div>
+                            <button class="massasInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="massasInfo--addButton">Adicionar ao carrinho</div>
+                <div class="massasInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="massas.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

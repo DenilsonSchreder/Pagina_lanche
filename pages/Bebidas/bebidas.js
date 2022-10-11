@@ -1,0 +1,8 @@
+let bebidasJson = [
+    {id:1, name:'Coca cola', img:'https://imagensemoldes.com.br/wp-content/uploads/2020/05/Lata-473-ml-Coca-Cola-PNG.png', price:6.50, sizes:['350ml', '600ml', '1,5L'], description:'Refrigerante Coca-Cola.'},
+    {id:2, name:'Sprite', img:'https://us-southeast-1.linodeobjects.com/storage/pajeu/media/uploads/produto/refrigerante_sprite_orig_sleek_220ml_4e509d81-0303-41ac-b3ac-d8b08a111244.png', price:6.00, sizes:['320g', '530g', '860g'], description:'Refrigerante Sprite.'},
+    {id:3, name:'Guaraná', img:'https://gbarbosa.vtexassets.com/arquivos/ids/176596/62869980c7ea5cd9ed9c30a4.png?v=637885851371630000', price:6, sizes:['350ml', '600ml', '1,5L'], description:'Refrigerante Guaraná.'},
+    {id:4, name:'Fanta laranja', img:'https://gbarbosa.vtexassets.com/arquivos/ids/180879-800-auto?v=637897004517230000&width=800&height=auto&aspect=true', price:6, sizes:['350ml', '600ml', '1,5L'], description:'Refrigerante Fanta sabor Laranja.'},
+    {id:5, name:'Suco fresh uva', img:'http://d3ugyf2ht6aenh.cloudfront.net/stores/001/059/965/products/su-fresh-lata-uva2-0db34ff9309fa6ddba15877404150706-640-0.png', price:6, sizes:['320g', '530g', '860g'], description:'Suco Fresh sabor uva.'},
+    {id:6, name:'Kuat', img:'https://comercial-daterra.s3.amazonaws.com/media/uploads/produto/refrigerante_kuat_lata_350ml_10dce160-ae2e-4a6e-8957-e340a5f27614.thumbnail.png', price:6, sizes:['350ml', '600ml', '1,5L'], description:'Refrigerante Kuat.'}
+];
